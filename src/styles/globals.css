@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+@plugin 'daisyui' {
+  themes: corporate --default;
+}
+@plugin '@tailwindcss/typography';
+
+@custom-variant dark (&:where(.dark, .dark *));
